@@ -1,0 +1,35 @@
+table {
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+tr.header {
+	background-color: #00b400;
+	color: #fff;
+}
+tr.header:hover {
+	background-color: #009600;
+}
+
+tr.row:nth-child(even) {
+	background-color: #fff;
+}
+tr.row:nth-child(even):hover {
+	background-color: #96e6e6;
+}
+
+tr.row:nth-child(odd) {
+	background-color: #d2d2d2;
+}
+tr.row:nth-child(odd):hover {
+	background-color: #96e6e6;
+}
+
+th, td {
+	padding: 15px;
+}
+
+td.amt {
+	text-align: right;
+}

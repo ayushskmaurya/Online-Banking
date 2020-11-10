@@ -1,0 +1,23 @@
+table {
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+
+td.bal {
+	background-color: #00b400;
+	color: #fff;
+	padding: 15px;
+}
+td.bal:hover {
+	background-color: #009600;
+}
+
+td.amt {
+	background-color: #f0f0f0;
+	text-align: right;
+	padding: 15px;
+}
+td.amt:hover {
+	background-color: #d2d2d2;
+}

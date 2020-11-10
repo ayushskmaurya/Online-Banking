@@ -1,0 +1,128 @@
+div.header {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px #c8c8c8;
+}
+
+div.logo-name {
+  width: 70%;
+  font-family: 'Russo One', sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px #c8c8c8;
+}
+
+a.logo {
+  color: #640000;
+  text-decoration: none;
+  font-size: 45px;
+  padding-left: 5px;
+}
+a.name {
+  color: #000064;
+  text-decoration: none;
+  font-size: 35px;
+  padding-left: 5px;
+}
+
+div.login, div.create {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+div.login {
+  background-color: #f0f0f0;
+  width: 7%;
+  margin-left: 7%;
+  margin-right: 1%;
+}
+div.login:hover {
+  background-color: #d2d2d2;
+}
+
+div.create {
+  background-color: #00b400;
+  width: 14%;
+  margin-right: 1%;
+}
+div.create:hover {
+  background-color: #009600;
+}
+
+a.login {
+  color: #000;
+  text-decoration: none;
+}
+a.create {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+  div.login, div.create {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 830px) and (max-width: 999px) {
+  div.login, div.create {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 829px) {
+  div.login {
+    width: 16%;
+    margin-left: 13%;
+  }
+  div.create {
+    display: none;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 389px) {
+  a.name {
+    font-size: 30px;
+  }
+  div.login {
+    width: 17%;
+    margin-left: 12%;
+  }
+  div.create {
+    display: none;
+  }
+}
+
+@media (min-width: 230px) and (max-width: 359px) {
+  a.name {
+    font-size: 25px;
+  }
+  div.logo-name {
+    width: 100%;
+  }
+  div.login, div.create {
+    display: none;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 229px) {
+  a.name {
+    font-size: 25px;
+  }
+  div.logo-name {
+    width: 100%;
+  }
+  a.logo, div.login, div.create {
+    display: none;
+  }
+}
+
+div.user {
+  font-family: 'Russo One', sans-serif;
+  font-size: 20px;
+  color: #640000;
+}

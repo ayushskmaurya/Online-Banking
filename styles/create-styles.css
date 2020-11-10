@@ -1,0 +1,82 @@
+div.outerDiv {
+	border: 1.5px solid #999;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+	margin-top: 70px;
+	padding: 30px;
+	padding-top: 10px;
+}
+
+h2.create {
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+span#a {
+	color: #f00;
+}
+
+input.create, input.b-create {
+	border: none;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px;
+	font-size: 15px;
+}
+
+input.create {
+	background-color: #f0f0f0;
+	margin-bottom: 30px;
+}
+input.create:focus {
+	background-color: #e6e6e6;
+	outline: none;
+	font-size: 17px;
+}
+
+input.b-create {
+	font-weight: bold;
+	background-color: #00b400;
+	color: #fff;
+	margin-top: 40px;
+}
+input.b-create:focus {
+	outline: none;
+}
+input.b-create:hover {
+	background-color: #009600;
+}
+
+p.error {
+	font-family: sans-serif;
+	text-align: center;
+	color: #f00;
+}
+
+@media (min-width: 530px) {
+	div.outerDiv {
+		width: 500px;
+	}
+}
+
+@media (min-width: 370px) and (max-width: 529px) {
+	div.outerDiv {
+		width: 350px;
+	}
+}
+
+@media (min-width: 330px) and (max-width: 369px) {
+	div.outerDiv {
+		width: 300px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 329px) {
+	div.outerDiv {
+		width: 200px;
+	}
+}
