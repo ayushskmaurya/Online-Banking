@@ -8,12 +8,12 @@ User can view their bank details, update details, close account online.<br />
 
 #### Instructions
 1. Create a MySQL Database using the following command:
-	'''
+	```
 	CREATE DATABASE mvmt_database;
-	'''
+	```
 
 2. Create two tables in this database using following commands:
-	'''
+	```
 	CREATE TABLE mvmt_records (
 	    accountNo VARCHAR(255) NOT NULL,
 	    firstName VARCHAR(255) NOT NULL,
@@ -25,13 +25,13 @@ User can view their bank details, update details, close account online.<br />
 	    email VARCHAR(255),
 	    PRIMARY KEY(accountNo)
 	);
-	'''
+	```
 
-	'''
+	```
 	CREATE TABLE mvmt_statements (
 		accountNo VARCHAR(255) NOT NULL,
 		info VARCHAR(255) NOT NULL,
 		dateTime DATETIME NOT NULL,
 		amount VARCHAR(255) NOT NULL
 	);
-	'''
+	```
